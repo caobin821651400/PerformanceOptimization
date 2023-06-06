@@ -1,0 +1,14 @@
+ext {
+//    version = [compileSdkVersion       : 33,
+//               buildToolsVersion       : "30.0.3",
+//               minSdkVersion           : 21,
+//               targetSdkVersion        : 33,
+//               versionCode             : 1,
+//               androidSupportSdkVersion: "33.0.0",
+//               renderscriptTargetApi   : 21,
+//               booster_version         : "4.0.0",
+//               agp_plugin_verson       : "7.2.2",
+//               multiDexEnabled         : true,
+//    ]
+    booster_version = '4.16.2'
+}

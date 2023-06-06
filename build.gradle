@@ -1,0 +1,19 @@
+
+buildscript {
+    ext.booster_version = '4.16.2'
+
+    dependencies {
+        classpath "com.didiglobal.booster:booster-gradle-plugin:$booster_version" // ①
+        // ② 弄清楚真正需要的特性，然后从下面的模块列表中选择正确的模块进行集成
+    }
+}
+plugins {
+    id 'com.android.application' version '7.1.2' apply false
+    id 'com.android.library' version '7.1.2' apply false
+    id 'org.jetbrains.kotlin.android' version '1.5.30' apply false
+}
+
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
